@@ -1,61 +1,243 @@
+Great progress — and thanks for the clear notes. Let’s fix all three things in one go:
+
+What we’ll change
+
+1. Make the photo smaller (show as a neat circular portrait, not full-width).
+
+
+2. Add a clear Pause for Suicide / Pause Prevention Project section.
+
+
+3. Upgrade your bio so it feels fuller and more you.
+
+
+
+Below are full, ready-to-paste replacements for your two files. Replace your repo’s index.html and style.css with these (keep hero.jpg as-is in the root). Vercel will redeploy automatically.
+
+
+---
+
+✅ New index.html (replace the whole file)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Brendan James Duff | Forge Mentoring</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <!-- Hero Section -->
+  <!-- HERO -->
   <header class="hero">
-    <img src="hero.jpg" alt="Brendan James Duff" class="hero-img">
+    <img src="hero.jpg" alt="Brendan James Duff" class="hero-img"/>
     <h1>Brendan James Duff</h1>
     <h2>Forge Mentoring</h2>
+    <p class="tagline">Presence • Communication • Balance</p>
+    <div class="cta-row">
+      <a class="btn primary" href="http://calendly.com/brendanjamesduff" target="_blank" rel="noreferrer">Book a Free 30-Minute Discovery Call</a>
+      <a class="btn" href="#mentoring">Explore Mentoring</a>
+    </div>
   </header>
 
-  <!-- About Section -->
-  <section>
+  <!-- ABOUT -->
+  <section id="about">
     <h3>About Me</h3>
     <p>
-      I’m Brendan James Duff — mentor, guide, and creator of the Pause Prevention Project.  
-      My ethos is built around the Noble Masculine: presence, balance, and real connection.
+      I’m Brendan James Duff. I mentor men who want to steady themselves and move with clarity.
+      My approach is simple and direct: listen closely, cut the noise, and build what lasts —
+      presence, communication, and daily action.
+    </p>
+    <p>
+      I call this <strong>The Noble Masculine</strong> — presence without posturing, responsibility without ego,
+      and strength that steadies others. We work practically: how you speak, how you show up,
+      and how you hold yourself when life gets loud.
     </p>
   </section>
 
-  <!-- Mentoring Section -->
-  <section>
+  <!-- MENTORING -->
+  <section id="mentoring">
     <h3>Mentoring</h3>
     <p>
-      I offer one-to-one mentoring sessions where we focus on what matters to you.  
-      You can book a <strong>free 30-minute discovery call</strong> or dive deeper with a consultation package.
+      Start with a free conversation to see if we’re a good fit. From there, choose the level of support that suits your season.
     </p>
-    <ul>
-      <li><a href="https://buy.stripe.com/test_eVq28j62Z1mgb1H8v62cg01" target="_blank">Free 30-Minute Discovery Call</a></li>
-      <li><a href="https://buy.stripe.com/test_cNi5kv3UR6GA1r7bHi2cg00" target="_blank">One-Hour Consultation</a></li>
-      <li><a href="https://buy.stripe.com/test_6oU8wHgHDaWQb1H12E2cg02" target="_blank">4-Week Mentoring Program</a></li>
+    <ul class="offer-list">
+      <li>
+        <div class="offer">
+          <h4>Free 30-Minute Discovery Call</h4>
+          <p>A first step to get to know each other and clarify what you need.</p>
+          <a class="btn primary" href="http://calendly.com/brendanjamesduff" target="_blank" rel="noreferrer">Book with Calendly</a>
+        </div>
+      </li>
+      <li>
+        <div class="offer">
+          <h4>One-Hour Consultation</h4>
+          <p>Focused session. Clear guidance and practical next steps.</p>
+          <a class="btn" href="https://buy.stripe.com/test_cNi5kv3UR6GA1r7bHi2cg00" target="_blank" rel="noreferrer">Pay with Stripe</a>
+        </div>
+      </li>
+      <li>
+        <div class="offer">
+          <h4>4-Week Mentoring Program</h4>
+          <p>Weekly 60-minute sessions. Habits, clarity, and steady accountability.</p>
+          <a class="btn" href="https://buy.stripe.com/test_6oU8wHgHDaWQb1H12E2cg02" target="_blank" rel="noreferrer">Pay with Stripe</a>
+        </div>
+      </li>
     </ul>
+    <p class="muted">Payments are processed securely by Stripe.</p>
   </section>
 
-  <!-- Pause Project -->
-  <section>
+  <!-- PAUSE PREVENTION PROJECT -->
+  <section id="pause">
     <h3>Pause Prevention Project</h3>
     <p>
-      Alongside mentoring, I’ve created the Pause Prevention Project — home to the  
-      <em>See, Say, Listen, Link</em> approach and my one-day suicide intervention program.  
-      This work connects my experience in resilience, prevention, and real human support.
+      Alongside Forge Mentoring, I created the <strong>Pause Prevention Project</strong> — the home for my suicide prevention work.
+      It includes <strong>Pause for Suicide</strong>, a simple human invitation to stop, breathe, and find steady ground,
+      and a one-day intervention built on <em>See • Say • Listen • Link</em>.
+    </p>
+    <p>
+      If you’re exploring prevention for yourself, a friend, or a team, this is where I bring that work together.
+    </p>
+    <p>
+      <a class="btn" href="https://pauseforsuicide.com" target="_blank" rel="noreferrer">Visit PauseForSuicide.com</a>
     </p>
   </section>
 
-  <!-- Contact -->
-  <section>
+  <!-- CONTACT -->
+  <section id="contact">
     <h3>Contact</h3>
     <p>Email: <a href="mailto:brendanjamesduff@gmail.com">brendanjamesduff@gmail.com</a></p>
-    <p>TikTok: <a href="https://www.tiktok.com/@balancewithbrendan" target="_blank">@BalanceWithBrendan</a></p>
+    <p>TikTok: <a href="https://www.tiktok.com/@balancewithbrendan" target="_blank" rel="noreferrer">@balancewithbrendan</a></p>
+    <p>
+      Prefer to talk? Book a time that suits:
+      <a class="inline-link" href="http://calendly.com/brendanjamesduff" target="_blank" rel="noreferrer">Calendly</a>.
+    </p>
   </section>
 
   <footer>
-    <p>© 2025 Brendan James Duff | Forge Mentoring</p>
+    <p>© 2025 Brendan James Duff — Forge Mentoring</p>
   </footer>
 </body>
 </html>
+
+
+---
+
+✅ New style.css (replace the whole file)
+
+/* Base */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background: #f6f7f9;
+  color: #1f2937; /* slate-800 */
+  text-align: center;
+}
+h1, h2, h3, h4 { margin: 0.2rem 0 0.6rem; }
+p { margin: 0.5rem 0 0.9rem; }
+a { color: #0b63d1; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  color: #111827;
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform .05s ease, opacity .2s ease;
+}
+.btn:hover { opacity: 0.9; }
+.btn:active { transform: translateY(1px); }
+.btn.primary {
+  background: #111827;
+  border-color: #111827;
+  color: #fff;
+}
+.inline-link { text-decoration: underline; }
+
+/* Hero */
+.hero {
+  background: #111827; /* near-black */
+  color: #fff;
+  padding: 2.5rem 1.25rem 2rem;
+}
+.hero-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border: 3px solid rgba(255,255,255,0.8);
+}
+.tagline { opacity: 0.9; margin-top: 0.2rem; }
+.cta-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 0.8rem; }
+
+/* Sections */
+section {
+  background: #fff;
+  margin: 1rem auto;
+  padding: 1.25rem;
+  max-width: 820px;
+  border-radius: 14px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  text-align: left;
+}
+section h3 { text-align: center; }
+
+.offer-list { list-style: none; padding: 0; margin: 0.5rem 0 0; }
+.offer { border: 1px solid #e5e7eb; border-radius: 12px; padding: 14px; margin: 10px 0; background: #fff; }
+.offer h4 { margin: 0 0 0.2rem; }
+.muted { color: #6b7280; font-size: 0.95rem; text-align: center; }
+
+/* Footer */
+footer {
+  margin: 1.2rem 0 2.2rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+/* Responsive tweak */
+@media (min-width: 900px) {
+  .hero-img { width: 200px; height: 200px; }
+}
+
+
+---
+
+Why this fixes your points
+
+Photo “massive” → we force it to a tidy circle at 180–200px and keep it centered.
+
+Pause for Suicide missing → there’s now a dedicated Pause Prevention Project section with a button to PauseForSuicide.com and mention of See • Say • Listen • Link.
+
+Bio too basic → expanded About with Noble Masculine explained and your practical approach emphasized.
+
+
+
+---
+
+What to do now
+
+1. In GitHub, open index.html → click the pencil → paste the new version → Commit changes.
+
+
+2. Do the same for style.css.
+
+
+3. Vercel will redeploy automatically (green check under Deployments).
+
+
+4. Refresh your site. If it still shows the old style, hard refresh with Ctrl + Shift + R.
+
+
+
+If you want the photo a touch bigger/smaller, tell me and I’ll set it to the exact size you like.
+
