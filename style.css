@@ -77,6 +77,11 @@ footer {
   color: #6b7280;
   text-align: center;
 }
+.forge-logo {
+  max-width: 180px;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
 
 /* Responsive tweak */
 @media (min-width: 900px) {
