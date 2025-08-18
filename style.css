@@ -42,10 +42,10 @@ a:hover { text-decoration: underline; }
   padding: 2.5rem 1.25rem 2rem;
 }
 .hero-img {
-  width: 180px;
-  height: 180px;
+  width: 260px;   /* was 180px */
+  height: 260px;  /* was 180px */
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;   /* was cover */
   object-position: center;
   display: block;
   margin: 0 auto 1rem auto;
