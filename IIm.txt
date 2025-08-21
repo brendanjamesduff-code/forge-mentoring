@@ -1,5 +1,3 @@
-# Guidance for AI crawlers indexing brendanjamesduff.com
-
 User-agent: GPTBot
 Allow: /
 
