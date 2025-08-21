@@ -1,0 +1,17 @@
+# Guidance for AI crawlers indexing brendanjamesduff.com
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Helpful references
+Sitemap: https://brendanjamesduff.com/sitemap.xml
+Data-source: https://brendanjamesduff.com/ai-dataset.json
