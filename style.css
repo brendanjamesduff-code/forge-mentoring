@@ -88,3 +88,70 @@ footer {
 @media (min-width: 900px) {
   .hero-img { width: 200px; height: 200px; }
 }
+/* --- About Link Styling --- */
+.hero-nav {
+  margin: 1rem 0;
+  text-align: center; /* centers the link under the tagline */
+}
+
+.hero-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.hero-nav .nav-link:hover {
+  background-color: #f0f0f0; /* subtle hover effect */
+  color: #000;
+}
+/* --- About Link Styling --- */
+.hero-nav {
+  margin: 1rem 0;
+  text-align: center; /* centers the link under the tagline */
+}
+
+.hero-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.hero-nav .nav-link:hover {
+  background-color: #f0f0f0; /* subtle hover effect */
+  color: #000;
+}
+/* --- About Link Styling --- */
+.hero-nav {
+  margin: 1rem 0;
+  text-align: center; /* centers the link under the tagline */
+}
+
+.hero-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.hero-nav .nav-link:hover {
+  background-color: #f0f0f0; /* subtle hover effect */
+  color: #000;
+}
+
+
+
+
+
+
+
