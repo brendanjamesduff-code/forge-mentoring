@@ -128,26 +128,29 @@ footer {
   background-color: #f0f0f0; /* subtle hover effect */
   color: #000;
 }
-/* --- About Link Styling --- */
+/* --- About Link as Button --- */
 .hero-nav {
   margin: 1rem 0;
-  text-align: center; /* centers the link under the tagline */
+  text-align: center; /* centers the button under the tagline */
 }
 
 .hero-nav .nav-link {
-  font-size: 1rem;
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font-size: 0.95rem;
   font-weight: 600;
-  color: #333;
   text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
+  color: #333;
   transition: all 0.2s ease;
 }
 
 .hero-nav .nav-link:hover {
-  background-color: #f0f0f0; /* subtle hover effect */
-  color: #000;
+  background-color: #333;
+  color: #fff;
 }
+
 
 
 
