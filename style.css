@@ -168,10 +168,12 @@ footer {
 /* --- Simple nav in hero --- */
 .hero-nav {
   margin: 0.75rem 0 0;
-  display: inline-flex;
+  display: flex;
+  justify-content: center; /* centers horizontally */
   gap: 0.5rem;
   flex-wrap: wrap;
 }
+
 .hero-nav .nav-link {
   display: inline-block;
   padding: 0.6rem 1.2rem;
