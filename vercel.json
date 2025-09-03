@@ -1,4 +1,7 @@
 {
+  "redirects": [
+    { "source": "/about.html", "destination": "/about", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/about", "destination": "/about.html" }
   ]
