@@ -730,9 +730,19 @@ flex-direction: column;
 }
 
 @media (max-width: 700px) {
+.site-header {
+position: relative;
+}
+
+.top-nav {
+min-height: auto;
+padding: 1rem 0;
+}
+
 .hero {
 min-height: auto;
-padding: 9rem 0 4rem;
+padding: 4rem 0 4rem;
+align-items: flex-start;
 }
 
 .hero-copy {
@@ -740,14 +750,14 @@ max-width: 100%;
 }
 
 .hero h1 {
-font-size: clamp(2.9rem, 12vw, 4.1rem);
-line-height: 0.95;
-letter-spacing: -0.04em;
+font-size: clamp(2.45rem, 10vw, 3.2rem);
+line-height: 1;
+letter-spacing: -0.035em;
 }
 
 .hero-lead {
-font-size: 1.05rem;
-line-height: 1.65;
+font-size: 1rem;
+line-height: 1.6;
 }
 
 .hero-actions {
@@ -764,11 +774,6 @@ text-align: center;
 @media (max-width: 620px) {
 .section {
 padding: 3.5rem 0;
-}
-
-.hero {
-padding-top: 10rem;
-padding-bottom: 4rem;
 }
 
 .btn {
@@ -797,9 +802,13 @@ flex-direction: column;
 }
 
 @media (max-width: 430px) {
+.hero {
+padding: 3.5rem 0 3.5rem;
+}
+
 .hero h1 {
-font-size: clamp(2.55rem, 10.8vw, 3.45rem);
-line-height: 0.95;
+font-size: clamp(2.25rem, 9.5vw, 2.9rem);
+line-height: 1;
 }
 
 .hero-lead {
@@ -813,44 +822,4 @@ min-height: auto;
 .nav-links {
 gap: 0.9rem;
 }
-  /* Final mobile header and hero fix */
-@media (max-width: 700px) {
-.site-header {
-position: relative;
-}
-
-.top-nav {
-min-height: auto;
-padding: 1rem 0;
-}
-
-.hero {
-padding: 4rem 0 4rem;
-min-height: auto;
-align-items: flex-start;
-}
-
-.hero h1 {
-font-size: clamp(2.45rem, 10vw, 3.2rem);
-line-height: 1;
-letter-spacing: -0.035em;
-}
-
-.hero-lead {
-font-size: 1rem;
-line-height: 1.6;
-}
-}
-
-@media (max-width: 430px) {
-.hero {
-padding: 3.5rem 0 3.5rem;
-}
-
-.hero h1 {
-font-size: clamp(2.25rem, 9.5vw, 2.9rem);
-line-height: 1;
-}
-}
-
 }
