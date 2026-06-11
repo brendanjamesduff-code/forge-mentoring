@@ -813,4 +813,44 @@ min-height: auto;
 .nav-links {
 gap: 0.9rem;
 }
+  /* Final mobile header and hero fix */
+@media (max-width: 700px) {
+.site-header {
+position: relative;
+}
+
+.top-nav {
+min-height: auto;
+padding: 1rem 0;
+}
+
+.hero {
+padding: 4rem 0 4rem;
+min-height: auto;
+align-items: flex-start;
+}
+
+.hero h1 {
+font-size: clamp(2.45rem, 10vw, 3.2rem);
+line-height: 1;
+letter-spacing: -0.035em;
+}
+
+.hero-lead {
+font-size: 1rem;
+line-height: 1.6;
+}
+}
+
+@media (max-width: 430px) {
+.hero {
+padding: 3.5rem 0 3.5rem;
+}
+
+.hero h1 {
+font-size: clamp(2.25rem, 9.5vw, 2.9rem);
+line-height: 1;
+}
+}
+
 }
