@@ -273,9 +273,10 @@ color: var(--charcoal);
 .hero {
 min-height: 720px;
 background:
-linear-gradient(90deg, rgba(7, 16, 18, 0.92), rgba(7, 16, 18, 0.76), rgba(7, 16, 18, 0.42)),
-radial-gradient(circle at 78% 35%, rgba(200, 150, 62, 0.18), transparent 28%),
-linear-gradient(135deg, #071012 0%, #10191b 45%, #263337 100%);
+linear-gradient(90deg, rgba(7, 16, 18, 0.94), rgba(7, 16, 18, 0.76), rgba(7, 16, 18, 0.36)),
+url("forge-hero.jpg");
+background-size: cover;
+background-position: center;
 color: var(--white);
 display: flex;
 align-items: center;
@@ -289,8 +290,8 @@ content: "";
 position: absolute;
 inset: 0;
 background:
-linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
 background-size: 64px 64px;
 mask-image: linear-gradient(90deg, transparent, black 20%, black 80%, transparent);
 pointer-events: none;
@@ -495,9 +496,10 @@ margin: 0;
 
 .confidentiality-band {
 background:
-linear-gradient(90deg, rgba(7, 16, 18, 0.95), rgba(7, 16, 18, 0.86)),
-radial-gradient(circle at 70% 40%, rgba(200, 150, 62, 0.2), transparent 30%),
-var(--charcoal);
+linear-gradient(90deg, rgba(7, 16, 18, 0.96), rgba(7, 16, 18, 0.86)),
+url("forge-hero.jpg");
+background-size: cover;
+background-position: center;
 color: var(--white);
 padding: 2.2rem 0;
 border-top: 1px solid rgba(200, 150, 62, 0.25);
@@ -717,7 +719,6 @@ border-bottom: 1px solid var(--line);
 border-bottom: 0;
 }
 
-.team-grid,
 .grid-2 {
 grid-template-columns: 1fr;
 }
@@ -767,4 +768,3 @@ grid-template-columns: 1fr;
 flex-direction: column;
 }
 }
-
